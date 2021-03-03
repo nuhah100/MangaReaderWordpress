@@ -1,0 +1,212 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ a#next-page,
+ a#prev-page {
+	 margin-right: 10px;
+ }
+ 
+ #jump {
+	 margin-bottom: 45px;
+ }
+ 
+ select {
+	 margin: 0 10px;
+ }
+ 
+ .chapter-link {
+	 padding: 5px;
+ }
+ 
+ .chapter-link a:hover {
+	 font-weight: bold;
+ }
+ 
+  .volume-number {
+	  font-weight: bold;
+	  margin-top: 1rem;
+	  color: #BDBDBD;
+  }
+ 
+ 
+ .current-image {
+	  text-align: center;
+	  margin: auto;
+  }
+ 
+ .current-image a {
+	 /* display: inline-block; */
+	}
+ 
+  .float-right {
+	  float: right;
+  }
+ 
+  .float-left {
+	 float: left;
+  }
+ 
+ .center {
+	 margin: auto;
+	 text-align: center;
+	 display: block;
+ }
+ 
+  #manga-nav {
+
+  }
+ 
+  #chapter-select {
+	  margin-right: 15px;
+  }
+ 
+  .manga-image {
+	  
+	  margin-right: auto !important;
+	  margin-left: auto !important;
+	  text-align: center;
+  }
+ .current-image
+ {
+	 max-width: 100% !important;
+ }
+ .btn-outline-secondary {
+	 color: #6c757d;
+	 background-color: transparent;
+	 background-image: none;
+	 border-color: #6c757d;
+ }
+ .DesktopNav .btn {
+	 display: block!important;
+	 width: 100%!important;
+	 margin: 0;
+	 white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+ }
+ .btn-group-sm>.btn, .btn-sm {
+	 padding: .25rem .5rem;
+	 font-size: .875rem;
+	 line-height: 1.5;
+	 border-radius: .2rem;
+ }
+ .btn {
+	 display: inline-block;
+	 font-weight: 400;
+	 text-align: center;
+	 white-space: nowrap;
+	 vertical-align: middle;
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+	 border: 1px solid transparent;
+	 padding: .375rem .75rem;
+	 font-size: 1rem;
+	 line-height: 1.5;
+	 border-radius: .25rem;
+	 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ 
+ .butsel {
+	 background-color: rgba(255,255,255,.0) !important;
+	 border-radius: 5px !important;
+	 border-color: #32373c !important;
+	 border: 1px !important;
+	 border-style: solid !important;
+	 color: #4e4e4e !important;
+	 width: auto !important;
+	 margin: 0 !important;
+	 padding: 0px auto !important;
+	 text-decoration: none !important;
+	 font-family: "Assistant" !important;
+	 width: 100% !important;
+	 /*min-width: 275px !important;*/
+ }
+ 
+ .butsel:hover {
+	 color: white !important;
+	 background-color: #32373c !important;
+	 transition: 0.5s !important;
+ }
+ 
+ .center {
+	 display: flex;
+	 flex-wrap: wrap;
+flex-direction: row;
+	 margin-right: auto !important;
+	 margin-left: auto !important;
+	 padding: 5px!important;
+	 box-sizing: border-box !important;
+	 flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+	  padding: 1rem;
+	  overflow: hidden;
+    border-width: 1.8px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 10px;
+border-width: 1.8px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 10px 10px 0px 0px;
+ }
+ 
+.but1,.but2,.but3,.but4
+{
+	flex: 0 0 25%;
+    max-width: 24%;
+}
+@media only screen and (max-width: 768px) {
+
+.but1,.but2,.but3,.but4
+{
+	flex: 0 0 100% !important;
+    max-width: 100% !important;
+
+
+}
+
+}
+.center select option
+{
+	text-align: left;
+}
+.center select
+{
+			/* for Firefox */ 
+        -moz-appearance: none !important; 
+        /* for Safari, Chrome, Opera */ 
+        -webkit-appearance: none !important; 
+ text-align: center;
+  text-align-last: center;
+}
+
+ #screen-full
+ {
+	  display: block!important;
+	 width: 100%!important;
+	 margin: 0 !important;
+	 white-space: nowrap !important;
+	 overflow: hidden !important;
+	 text-overflow: ellipsis !important;
+ }
+ #manga-title
+ {
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* Website specific */
+#main-nav
+{
+	/*position: relative  !important;*/
+}
+#onesignal-bell-launcher
+{
+	display: none;
+}
